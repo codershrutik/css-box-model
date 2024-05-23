@@ -6,10 +6,12 @@ div{
 
 h1{
     background-color: #94d2bd;
-    border-width: 1px;
+    /* border-width: 1px;
     border-color: #073b4c;
     border-style: solid;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    padding-left: 100px;
+    padding-top: 50px;
 }
 
 #one{
@@ -26,10 +28,17 @@ h1{
     border-color: #073b4c;
     border-style: solid;
     box-sizing: border-box;
+
+    padding-right: 50px;
 }
 
 #three{
     background-color:#00b4d8;
     border: 3px solid #073b4c;
     border-radius: 5%;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
 }
